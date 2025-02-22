@@ -1,10 +1,3 @@
----
-tags: [Job Search]
-title: Communication as a Software Engineer
-created: '2025-02-22T18:52:17.953Z'
-modified: '2025-02-22T22:11:04.800Z'
----
-
 # Communication as a Software Engineer
 
 ## How To Communicate Better (as a software engineer)

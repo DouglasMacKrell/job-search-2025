@@ -68,5 +68,83 @@
 - Choose the right medium for the message
 - Document important decisions and discussions
 
+## Code Review Best Practices
+[Reference: Stack Overflow Blog](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
+
+### Areas to Cover in Review
+- Look at the change itself and its fit in the codebase
+  - Title and description clarity
+  - Code correctness
+  - Test coverage
+  - Functionality changes
+  - Coding guidelines compliance
+- Consider the broader system context
+  - Impact on other system parts
+  - Maintainability concerns
+  - Architectural fit
+  - Potential simplifications
+
+### Communication Tone
+- Maintain a professional and positive tone
+  - Ask open-ended questions instead of making statements
+  - Offer alternatives without insisting they're the only way
+  - Be empathetic to the author's effort
+  - Celebrate good solutions
+
+### Review Status Guidelines
+- Be explicit about approval or changes needed
+  - Don't approve while open questions remain
+  - Clearly mark non-blocking comments
+  - Use team conventions for approval (e.g., "LGTM" or 👍)
+- Be flexible when appropriate
+  - Consider follow-up tickets for non-critical changes
+  - Accommodate urgency when needed
+
+### When to Move Beyond Written Reviews
+- Switch to face-to-face communication when:
+  - Discussion becomes a long back-and-forth
+  - Many comments indicate potential misunderstanding
+  - Complex changes need detailed explanation
+- Proactively reach out after first review pass if needed
+
+### Handling Nitpicks
+- Clearly mark minor suggestions with "nit:"
+- Avoid overwhelming the review with trivial comments
+- Consider automating common nitpicks through:
+  - Linting tools
+  - Team coding standards
+  - Automated checks
+
+### Special Considerations
+#### For New Team Members
+- Maintain quality standards while being extra supportive
+- Provide additional context and documentation links
+- Celebrate first contributions
+- Be more detailed in explanations
+
+#### For Cross-Time Zone Collaboration
+- Review during overlapping work hours when possible
+- Offer video calls for complex discussions
+- Consider systemic solutions for frequent cross-zone dependencies
+  - Service ownership adjustments
+  - Interface improvements
+  - Documentation updates
+
+### Organizational Support
+- Ensure all engineers participate in reviews
+- Include review work in job expectations
+- Invest in review tooling and efficiency
+- Support initiatives to improve review processes
+- Address hostile or unhelpful review patterns
+- Maintain strict "no code to production without review" policies
+
+### Key Takeaways
+- Reviews are crucial for code quality and team growth
+- Balance thoroughness with efficiency
+- Focus on both technical and communication aspects
+- Continuously improve review processes
+- Invest in tooling and standards
+- Foster a positive review culture
+
 
 
